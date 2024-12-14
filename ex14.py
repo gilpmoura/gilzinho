@@ -9,6 +9,7 @@ idade_veiculo=int(input("Quantos anos tem o teu veículo?: ")) #primeiro context
 bateria=int(input("A quanto vai a bateria?")) #segundo contexto, ou seja, só a energia que o veículo tem
 
 #neste caso, a idade e a bateria não têm nada a ver uma com a outra
+
 if idade_veiculo <= 10:
     print("O teu carro é seminovo.")
 elif idade_veiculo<=5:
@@ -24,4 +25,3 @@ elif bateria <=10:
 else:
     print("Ainda tens alguma bateria.")
 #podemos usar todos os ELIFs que precisarmos de acordo com o propósito do nosso programa.
-#no exemplo aterior, quando mudamos a variável sobre a qual se criou a condição, deixamos de usar ELIF e passamos a usar IF
